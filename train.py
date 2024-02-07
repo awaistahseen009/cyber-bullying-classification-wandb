@@ -17,7 +17,7 @@ DATA INGESTION CLASS IS USED TO GET THE DATA AND MAKE IT
 READY IN DATAFRAME FORMAT
 '''
 ingest_data=DataIngestion()
-df=ingest_data.get_data('cyberbullying_tweets.csv')
+df=ingest_data.get_data('data\cyberbullying_tweets.csv')
 print('***********Data has been ingested***********')
 print("---------------------------------------------")
 '''
